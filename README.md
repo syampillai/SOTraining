@@ -27,3 +27,5 @@ Open IntelliJ IDEA and install "SO Development" plug-in from the plug-ins market
 Create a maven Java project in IntelliJ IDEA from the POM file that can be downloaded from this site.
 
 That's it... Please join the "SO Training" discussion group for further instructions and training.
+
+Also, please start reading the wiki pages: https://github.com/syampillai/SOTraining/wiki/Before-You-Start  
