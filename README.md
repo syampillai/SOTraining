@@ -28,4 +28,4 @@ Create a maven Java project in IntelliJ IDEA from the POM file that can be downl
 
 That's it... Please join the "SO Training" discussion group for further instructions and training.
 
-Also, please start reading the wiki pages: https://github.com/syampillai/SOTraining/wiki/Before-You-Start  
+Also, please start reading the wiki pages: https://github.com/syampillai/SOTraining/wiki/1.-Before-You-Start  
