@@ -14,18 +14,4 @@ IntelliJ IDEA (Community edition will do).
 #### (5) Linux
 This should be the OS on your development machine (desktop/laptop). Ubuntu will do (Recent version is 20.04).
 ### Getting ready
-(Please make sure that you install 64bit versions wherever relevant).
-#### Step 1:
-Install Linux on your machine (preferably Ubuntu - most recent version https://ubuntu.com/download/desktop).
-#### Step 2:
-Install Java (You can download it from https://openjdk.java.net/). Java 11 or later version should be installed. (However, in your IDE's project settings, please make sure that you select Java 11). 
-#### Step 3:
-Install IntelliJ IDEA (Community edition will do https://www.jetbrains.com/idea/download/#section=linux).
-#### Step 4:
-Open IntelliJ IDEA and install "SO Development" plug-in from the plug-ins market place.
-#### Step 5:
-Create a maven Java project in IntelliJ IDEA from the POM file that can be downloaded from this site.
-
-That's it... Please join the "SO Training" discussion group for further instructions and training.
-
-Also, please start reading the wiki pages: [SO Training Wiki Pages](https://github.com/syampillai/SOTraining/wiki/0001.-Before-You-Start)  
+Please start reading the wiki pages: [SO Training Wiki Pages](https://github.com/syampillai/SOTraining/wiki/0001.-Before-You-Start)  
