@@ -11,8 +11,8 @@ It will be added advantage if you are familiar with Vaadin https://vaadin.com/. 
 #### (3) SQL
 Very basic concepts only.
 #### (4) IDE
-IntelliJ IDEA (Community edition will do).
+IntelliJ IDEA (Community edition will do. However, please make sure that you have the latest version).
 #### (5) Linux
-This should be the OS on your development machine (desktop/laptop). Ubuntu will do (Recent version is 20.04).
+This should be the OS on your development machine (desktop/laptop). Ubuntu will do (Recent version is 20.04 or later).
 ### Getting ready
 Please start reading the wiki pages: [SO Training Wiki Pages](https://github.com/syampillai/SOTraining/wiki/0001.-Before-You-Start)  
