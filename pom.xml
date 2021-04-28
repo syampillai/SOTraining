@@ -14,7 +14,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- SO Version -->
-        <so-version>5.8.8</so-version>
+        <so-version>5.9.1</so-version>
     </properties>
 
     <dependencies>
