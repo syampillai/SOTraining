@@ -14,21 +14,21 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- SO Version -->
-        <so-version>6.1.2</so-version>
+        <so-version>6.2.5</so-version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>com.storedobject</groupId>
-            <artifactId>so-development</artifactId>
+            <groupId>com.github.syampillai</groupId>
+	   <artifactId>SODevelopment</artifactId>
             <version>${so-version}</version>
         </dependency>
     </dependencies>
 
     <repositories>
         <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/syampillai/SODevelopment</url>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 
