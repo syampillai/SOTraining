@@ -14,18 +14,11 @@
         <maven-compiler-plugin-version>3.14.0</maven-compiler-plugin-version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <vaadin.version>24.6.6</vaadin.version>
 
         <!-- SO Version -->
         <so-version>13.0.2</so-version>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.github.syampillai</groupId>
-	   <artifactId>SODevelopment</artifactId>
-            <version>${so-version}</version>
-        </dependency>
-    </dependencies>
 
     <repositories>
         <repository>
@@ -33,7 +26,42 @@
             <url>https://jitpack.io</url>
         </repository>
     </repositories>
-	
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.vaadin</groupId>
+                <artifactId>vaadin-bom</artifactId>
+                <type>pom</type>
+                <scope>import</scope>
+                <version>${vaadin.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+
+        <!-- Vaadin - Forcing the version to remove vulnerability warnings on older versions -->
+        <dependency>
+            <groupId>com.vaadin</groupId>
+            <artifactId>vaadin-core</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.vaadin</groupId>
+                    <artifactId>hilla-dev</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- SO Development -->
+        <dependency>
+            <groupId>com.github.syampillai</groupId>
+            <artifactId>SODevelopment</artifactId>
+            <version>${so-version}</version>
+        </dependency>
+
+    </dependencies>
+
     <build>
         <plugins>
             <!-- Compile -->
