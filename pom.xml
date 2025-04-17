@@ -14,6 +14,7 @@
     </properties>
 
     <repositories>
+        <!-- SO artifacts are located here -->
         <repository>
             <id>so-maven</id>
             <url>https://storedobject.com/maven</url>
