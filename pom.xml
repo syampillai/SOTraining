@@ -9,71 +9,25 @@
     <version>1.0</version>
 
     <properties>
-        <java-version>21</java-version>
-        <maven.compiler.release>21</maven.compiler.release>
-        <maven-compiler-plugin-version>3.14.0</maven-compiler-plugin-version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <vaadin.version>24.6.6</vaadin.version>
-
         <!-- SO Version -->
-        <so-version>13.1.5</so-version>
+        <so-version>14.0.0</so-version>
     </properties>
 
     <repositories>
         <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
+            <id>so-maven</id>
+            <url>https://storedobject.com/maven</url>
         </repository>
     </repositories>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.vaadin</groupId>
-                <artifactId>vaadin-bom</artifactId>
-                <type>pom</type>
-                <scope>import</scope>
-                <version>${vaadin.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
     <dependencies>
-
-        <!-- Vaadin - Forcing the version to remove vulnerability warnings on older versions -->
-        <dependency>
-            <groupId>com.vaadin</groupId>
-            <artifactId>vaadin-core</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.vaadin</groupId>
-                    <artifactId>hilla-dev</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
 
         <!-- SO Development -->
         <dependency>
-            <groupId>com.github.syampillai</groupId>
-            <artifactId>SODevelopment</artifactId>
-            <version>${so-version}</version>
+            <groupId>com.storedobject</groupId>
+            <artifactId>so-development</artifactId>
+            <version>14.0.0</version>
         </dependency>
-
     </dependencies>
-
-    <build>
-        <plugins>
-            <!-- Compile -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven-compiler-plugin-version}</version>
-                <configuration>
-                    <release>${java-version}</release>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
