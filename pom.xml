@@ -27,7 +27,7 @@
         <dependency>
             <groupId>com.storedobject</groupId>
             <artifactId>so-development</artifactId>
-            <version>14.0.0</version>
+            <version>${so-version}</version>
         </dependency>
     </dependencies>
 
