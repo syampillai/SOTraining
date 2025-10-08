@@ -10,7 +10,7 @@
 
     <properties>
         <!-- SO Version -->
-        <so-version>15.0.0</so-version>
+        <so-version>15.0.10</so-version>
     </properties>
 
     <repositories>
