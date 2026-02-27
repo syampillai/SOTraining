@@ -9,6 +9,7 @@
     <version>1.0</version>
 
     <properties>
+        <maven.compiler.release>21</maven.compiler.release>
         <!-- SO Version -->
         <so-version>16.1.1</so-version>
     </properties>
